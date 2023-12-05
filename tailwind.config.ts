@@ -7,7 +7,9 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-
+    gridTemplateColumns: {
+      'gallery': 'repeat(auto-fit, minmax(250px, 1fr))'
+    }
   },
   plugins: [],
 }

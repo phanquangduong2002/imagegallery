@@ -3,5 +3,5 @@
     "arrowParens": "avoid",
     "singleQuote": true,
     "semi": false,
-    "printWidth": 80
+    "printWidth": 60
 }
