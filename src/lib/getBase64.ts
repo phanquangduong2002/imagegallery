@@ -17,8 +17,6 @@ async function getBase64(imageUrl: string) {
       Buffer.from(buffer)
     )
 
-    //console.log(base64)
-
     return base64
   } catch (e) {
     if (e instanceof Error) console.log(e.stack)
